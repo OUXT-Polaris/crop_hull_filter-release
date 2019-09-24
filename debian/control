@@ -1,0 +1,12 @@
+Source: ros-kinetic-crop-hull-filter
+Section: misc
+Priority: extra
+Maintainer: masaya kataoka <ms.kataoka@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-kinetic-catkin, ros-kinetic-nodelet, ros-kinetic-pcl-ros, ros-kinetic-pluginlib, ros-kinetic-roscpp, ros-kinetic-rosdoc-lite, ros-kinetic-sensor-msgs, ros-kinetic-tf2-eigen, ros-kinetic-tf2-ros, ros-kinetic-tf2-sensor-msgs, ros-kinetic-visualization-msgs
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-crop-hull-filter
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kinetic-nodelet, ros-kinetic-pcl-ros, ros-kinetic-pluginlib, ros-kinetic-roscpp, ros-kinetic-rosdoc-lite, ros-kinetic-sensor-msgs, ros-kinetic-tf2-eigen, ros-kinetic-tf2-ros, ros-kinetic-tf2-sensor-msgs, ros-kinetic-visualization-msgs
+Description: The crop_hull_filter package
