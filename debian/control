@@ -1,0 +1,12 @@
+Source: ros-melodic-crop-hull-filter
+Section: misc
+Priority: extra
+Maintainer: masaya kataoka <ms.kataoka@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-melodic-catkin, ros-melodic-nodelet, ros-melodic-pcl-ros, ros-melodic-pluginlib, ros-melodic-roscpp, ros-melodic-rosdoc-lite, ros-melodic-sensor-msgs, ros-melodic-tf2-eigen, ros-melodic-tf2-ros, ros-melodic-tf2-sensor-msgs, ros-melodic-visualization-msgs
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-melodic-crop-hull-filter
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-melodic-nodelet, ros-melodic-pcl-ros, ros-melodic-pluginlib, ros-melodic-roscpp, ros-melodic-rosdoc-lite, ros-melodic-sensor-msgs, ros-melodic-tf2-eigen, ros-melodic-tf2-ros, ros-melodic-tf2-sensor-msgs, ros-melodic-visualization-msgs
+Description: The crop_hull_filter package
